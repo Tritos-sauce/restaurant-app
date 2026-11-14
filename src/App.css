@@ -1,0 +1,34 @@
+body {
+  background-color: #f6f4f0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.hero-banner {
+  background: linear-gradient(rgba(17, 24, 39, 0.72), rgba(17, 24, 39, 0.72)),
+    url('/images/hero.jpg') center/cover no-repeat;
+  background-color: #1f2937;
+  color: white;
+  border-radius: 12px;
+}
+
+.dish-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.dish-card:hover {
+  transform: translateY(-4px);
+}
+
+.dish-banner {
+  height: 160px;
+  overflow: hidden;
+}
+
+.dish-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
